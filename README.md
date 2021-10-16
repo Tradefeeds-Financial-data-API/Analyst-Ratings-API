@@ -30,13 +30,74 @@ Our <a href="https://tradefeeds.com/api-documentation/" rel="nofollow"> documen
 
 <h2>Request and response examples</h2>
 
--- problem 
+https://www.tradefeeds.com/api/v1/analystratings
+    ?key=YOUR-KEY&
+            stock_ticker_symbol=AAPL,GOOG
+
+    "status": {
+    "code": 200,
+    "message": "Success."
+},
+"results": [
+    {
+    "basics": {
+        "name": "Apple Inc",
+        "stock_ticker_symbol": "AAPL"
+        "isin_identifier": "US0378331005"
+        "exchange": "nasdaq"
+        },
+    "output": {
+        "averageRecommendation": {
+            "current": "1.33",
+            "one_month_ago": "1.29",
+            "two_months_ago": "1.35",
+            "three_months_ago": "1.35"
+        },
+        "strongBuy": {
+            "current": "18",
+            "one_month_ago": "19",
+            "two_months_ago": "20",
+            "three_months_ago": "20"
+        },
+        "hold": {
+            "current": "2",
+            "one_month_ago": "2",
+            "two_months_ago": "3",
+            "three_months_ago": "3"
+        },
+        "strongSell": {
+            "current": "0",
+            "one_month_ago": "0",
+            "two_months_ago": "0",
+            "three_months_ago": "0"
+        }
+    }
+]
+
+https://www.tradefeeds.com/api/v1/analystratings
+    ?key=YOUR-KEY&
+            analyst_firm=JP Morgan
+
+    "status": {
+    "message": "Success."
+},
+"results": [
+    {
+    "basics": {
+        "analyst_firm": "JP Morgan",
+        NO EXAMPLE PROVIDED, CONTACT US FOR EXAMPLES
+        }
+    }
+]
+
 
 <h2>Customer support</h2>
 
+In case that you encounter a data issue or you want to have more features added to the API, <a href="mailto:support@tradefeeds.com">please contact us at</a>.</p>
+
 <h2>Legal</h2>
 
-
+<p> The use of Tradefeeds proprietary data and API database is subject to the&nbsp;<a href="https://tradefeeds.com/terms-and-conditions-on-data/">Tradefeeds Terms &amp; Conditions</a></p>
 
 
 
