@@ -30,65 +30,69 @@ Our <a href="https://tradefeeds.com/api-documentation/" rel="nofollow"> documen
 
 <h2>Request and response examples</h2>
 
-https://www.tradefeeds.com/api/v1/analystratings
+<a href="https://tradefeeds.com/api-documentation/">https://www.tradefeeds.com/api/v1/analystratings
     ?key=YOUR-KEY&
             stock_ticker_symbol=AAPL,GOOG
+</a>
 
-    "status": {
-    "code": 200,
-    "message": "Success."
-},
-"results": [
-    {
-    "basics": {
-        "name": "Apple Inc",
-        "stock_ticker_symbol": "AAPL"
-        "isin_identifier": "US0378331005"
-        "exchange": "nasdaq"
-        },
-    "output": {
-        "averageRecommendation": {
-            "current": "1.33",
-            "one_month_ago": "1.29",
-            "two_months_ago": "1.35",
-            "three_months_ago": "1.35"
-        },
-        "strongBuy": {
-            "current": "18",
-            "one_month_ago": "19",
-            "two_months_ago": "20",
-            "three_months_ago": "20"
-        },
-        "hold": {
-            "current": "2",
-            "one_month_ago": "2",
-            "two_months_ago": "3",
-            "three_months_ago": "3"
-        },
-        "strongSell": {
-            "current": "0",
-            "one_month_ago": "0",
-            "two_months_ago": "0",
-            "three_months_ago": "0"
+
+        "status": {
+        "code": 200,
+        "message": "Success."
+    },
+    "results": [
+        {
+        "basics": {
+            "name": "Apple Inc",
+            "stock_ticker_symbol": "AAPL"
+            "isin_identifier": "US0378331005"
+            "exchange": "nasdaq"
+            },
+        "output": {
+            "averageRecommendation": {
+                "current": "1.33",
+                "one_month_ago": "1.29",
+                "two_months_ago": "1.35",
+                "three_months_ago": "1.35"
+            },
+            "strongBuy": {
+                "current": "18",
+                "one_month_ago": "19",
+                "two_months_ago": "20",
+                "three_months_ago": "20"
+            },
+            "hold": {
+                "current": "2",
+                "one_month_ago": "2",
+                "two_months_ago": "3",
+                "three_months_ago": "3"
+            },
+            "strongSell": {
+                "current": "0",
+                "one_month_ago": "0",
+                "two_months_ago": "0",
+                "three_months_ago": "0"
+            }
         }
-    }
-]
+    ]
 
-https://www.tradefeeds.com/api/v1/analystratings
+<p><a href="https://tradefeeds.com/api-documentation/">https://www.tradefeeds.com/api/v1/analystratings
     ?key=YOUR-KEY&
-            analyst_firm=JP Morgan
+            analyst_firm=JP Morgan</a></p>
 
-    "status": {
-    "message": "Success."
-},
-"results": [
-    {
-    "basics": {
-        "analyst_firm": "JP Morgan",
-        NO EXAMPLE PROVIDED, CONTACT US FOR EXAMPLES
+
+        "status": {
+        "message": "Success."
+    },
+    "results": [
+        {
+        "basics": {
+            "analyst_firm": "JP Morgan",
+            NO EXAMPLE PROVIDED, CONTACT US FOR EXAMPLES
+            }
         }
-    }
-]
+    ]
+
 
 
 <h2>Customer support</h2>
