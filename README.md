@@ -97,7 +97,7 @@ Our <a href="https://tradefeeds.com/api-documentation/" rel="nofollow"> documen
 
 <h2>Customer support</h2>
 
-In case that you encounter a data issue or you want to have more features added to the API, <a href="mailto:support@tradefeeds.com">please contact us at</a>.</p>
+In case that you encounter a data issue or you want to have more features added to the API, please contact us at support@tradefeeds.com. 
 
 <h2>Legal</h2>
 
